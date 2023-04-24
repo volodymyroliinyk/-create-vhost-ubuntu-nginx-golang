@@ -2,7 +2,7 @@
 # Fast way create virtual host for Ubuntu Nginx GoLang.
 # 1) Don`t use symbol "_" for local domain name.
 # 2) Open file `/etc/hosts` and string `#localhost` to the end of file (one-time step).
-# 3) Run script under `root` user: `sudo -s;sh create_host_nginx_golang.sh <your-domain-name.local> <port>`
+# 3) Run script under `root` user: `sudo -s;sh create_host_nginx_golang.sh <your-domain-name.local> <port>;`
 
 new_site_name=$1
 new_site_port=$2
